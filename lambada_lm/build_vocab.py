@@ -16,7 +16,7 @@
 
 import tensorflow as tf
 
-from lambada import reader
+from lambada_lm import reader
 
 flags = tf.flags
 flags.DEFINE_string("text", None, "Text file to process")
